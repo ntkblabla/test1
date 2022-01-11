@@ -4,11 +4,11 @@
       <a href="#" class="navbar-brand">NCN</a>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link to="/home" class="nav-link">
+          <router-link to="/start" class="nav-link">
             <font-awesome-icon icon="home" />Home
           </router-link>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a href="/users" class="nav-link">List User</a>
         </li>
         <li  class="nav-item">
@@ -16,10 +16,10 @@
         </li>
         <li  class="nav-item">
           <a href="/addquestion" class="nav-link">Add Question</a>
-        </li>
-        <li class="nav-item">
+        </li> -->
+        <!-- <li class="nav-item">
           <a href="/start" class="nav-link">Start</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a href="/result" class="nav-link">Result</a>
         </li>

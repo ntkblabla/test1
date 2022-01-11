@@ -67,6 +67,30 @@ export default new Router({
       component: () => import("./components/Start")
     },
     {
+      path: "/thdc",
+      
+      name: "thdc",
+      component: () => import("./components/THDC")
+    },
+    {
+      path: "/vl1c1",
+      
+      name: "vl1c1",
+      component: () => import("./components/VL1C1")
+    },
+    {
+      path: "/vl1c2",
+      
+      name: "vl1c2",
+      component: () => import("./components/VL1C2")
+    },
+    {
+      path: "/vl1c3",
+      
+      name: "vl1c3",
+      component: () => import("./components/VL1C3")
+    },
+    {
       path: "/result",
       
       name: "result",

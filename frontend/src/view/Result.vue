@@ -30,6 +30,7 @@
         <th>Username</th>
         <th>Marks</th>
         <th>Created at</th>
+        <th>Subject</th>
       </tr>
     </thead>
     <tbody>
@@ -38,6 +39,7 @@
         <td>{{result.username}}</td>
         <td>{{result.marks}}</td>
         <td>{{result.createdAt}}</td>
+        <td>{{result.subject}}</td>
       </tr>
       
     </tbody>

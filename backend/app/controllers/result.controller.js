@@ -8,7 +8,8 @@ exports.createResult = (req, res) => {
     // Create a Result
     const result = {
       marks: req.body.marks,
-      username: req.body.username
+      username: req.body.username,
+      subject: req.body.subject
     };
     // Save Result in the database
     Result.create(result)
